@@ -1,0 +1,12 @@
+name: es-data-provider
+summary: Generate test data and upload to ES cluster
+maintainers:
+    - Alan Turning <alan.turing@example.com>
+description: |
+    This charm will pass an elasticsearch URL to the data generator app
+    and start inserting data into the ES cluster.
+series:
+    - kubernetes
+requires:
+    elasticsearch:
+        interface: es-datastore

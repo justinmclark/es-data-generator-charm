@@ -1,0 +1,5 @@
+options:
+    es_data_gen_image_path:
+        default: justinmclark/es-test-data:v0.3
+        description: path to image on Docker Hub
+        type: string
